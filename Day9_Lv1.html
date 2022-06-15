@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+    <link rel="stylesheet" href="sample.css" />
+  </head>
+  <body>
+    <script>
+      function isPrime(i) {
+        let k;
+        for (k = 2; k < i; k++) {
+          if (i % k == 0) {
+            return false;
+          }
+        }
+
+        if (k == i) {
+          return true;
+        }
+      }
+
+      let mydiv;
+      for (let i = 0; i <= 101; i++) {
+        mydiv = document.createElement("div");
+        mydiv.textContent = i;
+        mydiv.style.width = "100px";
+        mydiv.style.height = "100px";
+        mydiv.style.textAlign = "center";
+        mydiv.style.lineHeight = "90px"
+        mydiv.style.fontSize = "20px"
+        mydiv.style.margin = "5px 20px"
+        if (i % 2 == 0 && isPrime(i)) {
+          mydiv.style.backgroundColor = "red";
+        } else if (i % 2 != 0 && isPrime(i)) {
+          mydiv.style.backgroundColor = "red";
+        } else if (i % 2 == 0 && !isPrime(i)) {
+          mydiv.style.backgroundColor = "green";
+        } else if (i % 2 != 0 && !isPrime(i)) {
+          mydiv.style.backgroundColor = "yellow";
+        }
+        // mydiv.style.display = "flex";
+        document.body.appendChild(mydiv);
+      }
+    </script>
+  </body>
+</html>
