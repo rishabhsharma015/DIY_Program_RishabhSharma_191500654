@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Courgette&family=Inconsolata:wght@300;400&family=Josefin+Sans:wght@200&family=Lobster&family=M+PLUS+1p:wght@300&family=M+PLUS+2&family=Nunito:wght@300&family=Oswald:wght@300&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@100&family=Source+Sans+Pro:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 78vh;
+    margin: 80px auto;
+}
+
+#name{
+    font-size: 80px;
+    padding-top: 15px;
+    margin-left: 98px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.quality{
+    width: max-content;
+}
+
+.qualities{
+    display: flex;
+    background-color: #ffce8a;
+    width: 80%;
+    height: 10vh;
+    margin-left: 103px;
+    margin-top: 20px;
+}
+
+.intro{
+    width: 77%;
+    height: 10vh;
+    margin-left: 103px;
+    margin-top: 25px;
+}
+
+.intro p{
+    font-size: 17px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(19, 18, 18);
+}
+
+.cards{
+    display: flex;
+    width: 80%;
+    height: 18vh;
+    margin-left: 103px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;    
+}
+
+.cards .c1{
+    width: 220px;
+    height: 100%;
+    background-color: blanchedalmond;
+    transition: all 0.1s ease-in;
+}
+
+.cards .c2{
+    width: 220px;
+    height: 100%;
+    background-color: blanchedalmond;
+    transition: all 0.1s ease-in;
+}
+
+.cards .c3{
+    width: 220px;
+    height: 100%;
+    background-color: blanchedalmond;
+    transition: all 0.1s ease-in;
+}
+
+.cards .c1 p{
+    margin: 47px 32px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+.cards .c2 p{
+    text-align: center;
+    line-height: 130px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.cards .c3 p{
+    text-align: center;
+    line-height: 130px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.cards .c1:hover{
+    width: 222px;
+    height: 103%;
+    background-color: rgb(253, 204, 131);
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.cards .c2:hover{
+    width: 222px;
+    height: 103%;
+    background-color: rgb(253, 204, 131);
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.cards .c3:hover{
+    width: 222px;
+    height: 103%;
+    background-color: rgb(253, 204, 131);
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+
+.qualities p{
+    margin-left: 30px;
+    padding-top: 28px;
+    font-size: 19px;
+}
+
+.fc{
+    display: flex;
+    margin-left: 103px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.fc p{
+    margin-bottom: 10px;
+}
+
+.fc .tech{
+    margin-left: 6px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.icon .stext{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.qicon{
+    align-items: center;
+}
