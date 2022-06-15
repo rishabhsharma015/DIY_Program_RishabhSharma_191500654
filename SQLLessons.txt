@@ -101,4 +101,3 @@ Find the names of the buildings that hold no employees ✓
 --select building_name from Buildings left join Employees on building_name = Employees.building where Employees.building is NULL;
 
 👍👍👍
--- select name, role from employees where building is null;
