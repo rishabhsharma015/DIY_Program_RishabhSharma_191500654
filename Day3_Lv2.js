@@ -52,3 +52,14 @@ let ms = d1.getTime();
 
 
 // Q15: Create a human readable time format using the Date time object
+function formatDate(date, sep){
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+
+    return day + sep + month + sep + year;
+}
+
+
+var date = new Date();
+console.log(formatDate(date, '/'));
